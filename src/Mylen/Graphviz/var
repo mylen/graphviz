@@ -1,0 +1,10 @@
+
+    /**
+    * @param Len len
+    * @return Edge
+    */
+    public function setLen(Len $len)
+    {
+        $this->set($len->getName(), $len->getValue());
+        return $this;
+    }
