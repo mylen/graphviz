@@ -1,10 +1,10 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Fdp;
+namespace Mylen\GraphViz\Spring\Fdp;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Weight;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Len;
+use Mylen\GraphViz\Attributes\Weight;
+use Mylen\GraphViz\Attributes\Len;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Edge as BaseEdge;
+use Mylen\GraphViz\Edge as BaseEdge;
 
 class Edge extends BaseEdge
 {

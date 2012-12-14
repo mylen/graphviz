@@ -1,5 +1,5 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types;
+namespace Mylen\GraphViz\Types;
 
 /**
 * A colon-separated list of weighted color values: <I>WC</i>(:<I>WC</i>)*

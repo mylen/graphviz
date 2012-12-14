@@ -1,5 +1,5 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types;
+namespace Mylen\GraphViz\Types;
 
 /**
 * "TB", "LR", "BT", "RL", corresponding to directed graphs drawn

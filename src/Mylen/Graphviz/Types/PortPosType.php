@@ -1,5 +1,5 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types;
+namespace Mylen\GraphViz\Types;
 
 /**
 * modifier indicating where on a node an edge should be aimed.

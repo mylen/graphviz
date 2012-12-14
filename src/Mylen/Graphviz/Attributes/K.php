@@ -1,5 +1,5 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes;
+namespace Mylen\GraphViz\Attributes;
 
 
 class K extends AbstractAttributes

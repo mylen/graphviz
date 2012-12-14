@@ -1,27 +1,27 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Neato;
+namespace Mylen\GraphViz\Spring\Neato;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Start;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Mosek;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Model;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Mode;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Maxiter;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Levelsgap;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Epsilon;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Diredgeconstraints;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Dimen;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Dim;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Defaultdist;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Damping;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Voro_margin;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Sep;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Packmode;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Pack;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Overlap;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Normalize;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Esep;
+use Mylen\GraphViz\Attributes\Start;
+use Mylen\GraphViz\Attributes\Mosek;
+use Mylen\GraphViz\Attributes\Model;
+use Mylen\GraphViz\Attributes\Mode;
+use Mylen\GraphViz\Attributes\Maxiter;
+use Mylen\GraphViz\Attributes\Levelsgap;
+use Mylen\GraphViz\Attributes\Epsilon;
+use Mylen\GraphViz\Attributes\Diredgeconstraints;
+use Mylen\GraphViz\Attributes\Dimen;
+use Mylen\GraphViz\Attributes\Dim;
+use Mylen\GraphViz\Attributes\Defaultdist;
+use Mylen\GraphViz\Attributes\Damping;
+use Mylen\GraphViz\Attributes\Voro_margin;
+use Mylen\GraphViz\Attributes\Sep;
+use Mylen\GraphViz\Attributes\Packmode;
+use Mylen\GraphViz\Attributes\Pack;
+use Mylen\GraphViz\Attributes\Overlap;
+use Mylen\GraphViz\Attributes\Normalize;
+use Mylen\GraphViz\Attributes\Esep;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Graph as BaseGraph;
+use Mylen\GraphViz\Graph as BaseGraph;
 
 class Graph extends BaseGraph
 {

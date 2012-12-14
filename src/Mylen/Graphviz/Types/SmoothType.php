@@ -1,5 +1,5 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types;
+namespace Mylen\GraphViz\Types;
 
 /**
 * Values are "none", "avg_dist", "graph_dist", "power_dist", "rng", 

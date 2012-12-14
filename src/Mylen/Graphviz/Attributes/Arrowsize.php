@@ -1,8 +1,8 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes;
+namespace Mylen\GraphViz\Attributes;
 
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types\DoubleType;
+use Mylen\GraphViz\Types\DoubleType;
 
 /**
  * Multiplicative scale factor for arrowheads.

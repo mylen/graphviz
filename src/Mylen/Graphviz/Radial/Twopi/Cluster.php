@@ -1,7 +1,7 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Radial\Twopi;
+namespace Mylen\GraphViz\Radial\Twopi;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Cluster as BaseCluster;
+use Mylen\GraphViz\Cluster as BaseCluster;
 
 class Cluster extends BaseCluster
 {

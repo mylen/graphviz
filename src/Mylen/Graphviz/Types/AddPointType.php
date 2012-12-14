@@ -1,5 +1,5 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types;
+namespace Mylen\GraphViz\Types;
 
 /**
 * <P>A <A HREF="kpoint">point</a> with an optional prefix '+'.

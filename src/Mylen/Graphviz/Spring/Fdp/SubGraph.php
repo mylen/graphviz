@@ -1,7 +1,7 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Fdp;
+namespace Mylen\GraphViz\Spring\Fdp;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\SubGraph as BaseSubgraph;
+use Mylen\GraphViz\SubGraph as BaseSubgraph;
 
 class SubGraph extends BaseSubgraph
 {

@@ -1,26 +1,26 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Fdp;
+namespace Mylen\GraphViz\Spring\Fdp;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Start;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Smoothing;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Rotation;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Repulsiveforce;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Quadtree;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Maxiter;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Levels;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Label_scheme;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\K;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Dimen;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Dim;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Voro_margin;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Sep;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Packmode;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Pack;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Overlap;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Normalize;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Esep;
+use Mylen\GraphViz\Attributes\Start;
+use Mylen\GraphViz\Attributes\Smoothing;
+use Mylen\GraphViz\Attributes\Rotation;
+use Mylen\GraphViz\Attributes\Repulsiveforce;
+use Mylen\GraphViz\Attributes\Quadtree;
+use Mylen\GraphViz\Attributes\Maxiter;
+use Mylen\GraphViz\Attributes\Levels;
+use Mylen\GraphViz\Attributes\Label_scheme;
+use Mylen\GraphViz\Attributes\K;
+use Mylen\GraphViz\Attributes\Dimen;
+use Mylen\GraphViz\Attributes\Dim;
+use Mylen\GraphViz\Attributes\Voro_margin;
+use Mylen\GraphViz\Attributes\Sep;
+use Mylen\GraphViz\Attributes\Packmode;
+use Mylen\GraphViz\Attributes\Pack;
+use Mylen\GraphViz\Attributes\Overlap;
+use Mylen\GraphViz\Attributes\Normalize;
+use Mylen\GraphViz\Attributes\Esep;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Graph as BaseGraph;
+use Mylen\GraphViz\Graph as BaseGraph;
 
 class Graph extends BaseGraph
 {

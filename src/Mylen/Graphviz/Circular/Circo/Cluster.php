@@ -1,7 +1,7 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Circular\Circo;
+namespace Mylen\GraphViz\Circular\Circo;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Cluster as BaseCluster;
+use Mylen\GraphViz\Cluster as BaseCluster;
 
 class Cluster extends BaseCluster
 {

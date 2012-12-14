@@ -1,10 +1,10 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Fdp;
+namespace Mylen\GraphViz\Spring\Fdp;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Pin;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Levels;
+use Mylen\GraphViz\Attributes\Pin;
+use Mylen\GraphViz\Attributes\Levels;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Node as BaseNode;
+use Mylen\GraphViz\Node as BaseNode;
 
 class Node extends BaseNode
 {

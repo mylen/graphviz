@@ -1,5 +1,5 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types;
+namespace Mylen\GraphViz\Types;
 
 /**
 * "%lf,%lf,%lf,%lf,%lf" or  "%lf,%lf,%lf,'%s'"

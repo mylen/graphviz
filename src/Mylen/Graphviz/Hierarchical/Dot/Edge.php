@@ -1,15 +1,15 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Hierarchical\Dot;
+namespace Mylen\GraphViz\Hierarchical\Dot;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Showboxes;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Sametail;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Samehead;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Minlen;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Ltail;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Lhead;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Constraint;
+use Mylen\GraphViz\Attributes\Showboxes;
+use Mylen\GraphViz\Attributes\Sametail;
+use Mylen\GraphViz\Attributes\Samehead;
+use Mylen\GraphViz\Attributes\Minlen;
+use Mylen\GraphViz\Attributes\Ltail;
+use Mylen\GraphViz\Attributes\Lhead;
+use Mylen\GraphViz\Attributes\Constraint;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Edge as BaseEdge;
+use Mylen\GraphViz\Edge as BaseEdge;
 
 class Edge extends BaseEdge
 {

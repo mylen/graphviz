@@ -1,8 +1,8 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes;
+namespace Mylen\GraphViz\Attributes;
 
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types\AspectType;
+use Mylen\GraphViz\Types\AspectType;
 
 /**
  * Target aspect ratio (width of the layout divided by the height)

@@ -1,9 +1,9 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Circular\Circo;
+namespace Mylen\GraphViz\Circular\Circo;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Root;
+use Mylen\GraphViz\Attributes\Root;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Node as BaseNode;
+use Mylen\GraphViz\Node as BaseNode;
 
 class Node extends BaseNode
 {

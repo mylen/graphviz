@@ -1,7 +1,7 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Fdp\Sfdp;
+namespace Mylen\GraphViz\Spring\Fdp\Sfdp;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Fdp\Node as BaseNode;
+use Mylen\GraphViz\Spring\Fdp\Node as BaseNode;
 
 class Node extends BaseNode
 {

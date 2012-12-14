@@ -1,8 +1,8 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Neato;
+namespace Mylen\GraphViz\Spring\Neato;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Len;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Edge as BaseEdge;
+use Mylen\GraphViz\Attributes\Len;
+use Mylen\GraphViz\Edge as BaseEdge;
 
 class Edge extends BaseEdge
 {

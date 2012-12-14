@@ -1,9 +1,9 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Fdp;
+namespace Mylen\GraphViz\Spring\Fdp;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\K;
+use Mylen\GraphViz\Attributes\K;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Cluster as BaseCluster;
+use Mylen\GraphViz\Cluster as BaseCluster;
 
 class Cluster extends BaseCluster
 {

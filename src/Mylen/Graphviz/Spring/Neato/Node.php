@@ -1,9 +1,9 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Neato;
+namespace Mylen\GraphViz\Spring\Neato;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Pin;
+use Mylen\GraphViz\Attributes\Pin;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Node as BaseNode;
+use Mylen\GraphViz\Node as BaseNode;
 
 class Node extends BaseNode
 {

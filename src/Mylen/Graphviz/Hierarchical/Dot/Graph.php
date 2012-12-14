@@ -1,20 +1,20 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Hierarchical\Dot;
+namespace Mylen\GraphViz\Hierarchical\Dot;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Showboxes;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Searchsize;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Remincross;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Ranksep;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Rankdir;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Ordering;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Nslimit1;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Nslimit;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Mclimit;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Compound;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Clusterrank;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Aspect;
+use Mylen\GraphViz\Attributes\Showboxes;
+use Mylen\GraphViz\Attributes\Searchsize;
+use Mylen\GraphViz\Attributes\Remincross;
+use Mylen\GraphViz\Attributes\Ranksep;
+use Mylen\GraphViz\Attributes\Rankdir;
+use Mylen\GraphViz\Attributes\Ordering;
+use Mylen\GraphViz\Attributes\Nslimit1;
+use Mylen\GraphViz\Attributes\Nslimit;
+use Mylen\GraphViz\Attributes\Mclimit;
+use Mylen\GraphViz\Attributes\Compound;
+use Mylen\GraphViz\Attributes\Clusterrank;
+use Mylen\GraphViz\Attributes\Aspect;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Graph as BaseGraph;
+use Mylen\GraphViz\Graph as BaseGraph;
 
 class Graph extends BaseGraph
 {

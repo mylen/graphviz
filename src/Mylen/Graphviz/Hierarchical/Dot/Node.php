@@ -1,11 +1,11 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Hierarchical\Dot;
+namespace Mylen\GraphViz\Hierarchical\Dot;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Showboxes;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Ordering;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Group;
+use Mylen\GraphViz\Attributes\Showboxes;
+use Mylen\GraphViz\Attributes\Ordering;
+use Mylen\GraphViz\Attributes\Group;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Node as BaseNode;
+use Mylen\GraphViz\Node as BaseNode;
 
 class Node extends BaseNode
 {

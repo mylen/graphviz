@@ -1,7 +1,7 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Neato;
+namespace Mylen\GraphViz\Spring\Neato;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\SubGraph as BaseSubgraph;
+use Mylen\GraphViz\SubGraph as BaseSubgraph;
 
 class SubGraph extends BaseSubgraph
 {

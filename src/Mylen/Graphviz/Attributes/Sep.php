@@ -1,9 +1,9 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes;
+namespace Mylen\GraphViz\Attributes;
 
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types\AttributeType;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types\AddDoubleType;
+use Mylen\GraphViz\Types\AttributeType;
+use Mylen\GraphViz\Types\AddDoubleType;
 
 /**
  * Specifies margin to leave around nodes when removing node overlap.

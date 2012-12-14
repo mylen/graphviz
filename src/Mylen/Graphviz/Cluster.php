@@ -1,36 +1,36 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz;
+namespace Mylen\GraphViz;
 
 use Alom\Graphviz\Subgraph;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\K;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\URL;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Area;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Bgcolor;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Color;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Colorscheme;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Fillcolor;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Fontcolor;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Fontname;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Fontsize;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Gradientangle;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Href;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Label;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Labeljust;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Labelloc;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Layer;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Lheight;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Lp;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Lwidth;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Margin;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Nojustify;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Pencolor;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Penwidth;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Peripheries;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Sortv;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Style;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Target;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Tooltip;
+use Mylen\GraphViz\Attributes\K;
+use Mylen\GraphViz\Attributes\URL;
+use Mylen\GraphViz\Attributes\Area;
+use Mylen\GraphViz\Attributes\Bgcolor;
+use Mylen\GraphViz\Attributes\Color;
+use Mylen\GraphViz\Attributes\Colorscheme;
+use Mylen\GraphViz\Attributes\Fillcolor;
+use Mylen\GraphViz\Attributes\Fontcolor;
+use Mylen\GraphViz\Attributes\Fontname;
+use Mylen\GraphViz\Attributes\Fontsize;
+use Mylen\GraphViz\Attributes\Gradientangle;
+use Mylen\GraphViz\Attributes\Href;
+use Mylen\GraphViz\Attributes\Label;
+use Mylen\GraphViz\Attributes\Labeljust;
+use Mylen\GraphViz\Attributes\Labelloc;
+use Mylen\GraphViz\Attributes\Layer;
+use Mylen\GraphViz\Attributes\Lheight;
+use Mylen\GraphViz\Attributes\Lp;
+use Mylen\GraphViz\Attributes\Lwidth;
+use Mylen\GraphViz\Attributes\Margin;
+use Mylen\GraphViz\Attributes\Nojustify;
+use Mylen\GraphViz\Attributes\Pencolor;
+use Mylen\GraphViz\Attributes\Penwidth;
+use Mylen\GraphViz\Attributes\Peripheries;
+use Mylen\GraphViz\Attributes\Sortv;
+use Mylen\GraphViz\Attributes\Style;
+use Mylen\GraphViz\Attributes\Target;
+use Mylen\GraphViz\Attributes\Tooltip;
 
 class Cluster
 {

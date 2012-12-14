@@ -1,9 +1,9 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Hierarchical\Dot;
+namespace Mylen\GraphViz\Hierarchical\Dot;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Rank;
+use Mylen\GraphViz\Attributes\Rank;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\SubGraph as BaseSubgraph;
+use Mylen\GraphViz\SubGraph as BaseSubgraph;
 
 class SubGraph extends BaseSubgraph
 {

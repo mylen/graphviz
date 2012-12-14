@@ -1,8 +1,8 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes;
+namespace Mylen\GraphViz\Attributes;
 
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types\ArrowType;
+use Mylen\GraphViz\Types\ArrowType;
 
 /**
  * Style of arrowhead on the head node of an edge.

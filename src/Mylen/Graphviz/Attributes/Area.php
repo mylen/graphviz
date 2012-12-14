@@ -1,7 +1,7 @@
 <?php 
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes;
+namespace Mylen\GraphViz\Attributes;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Types\DoubleType;
+use Mylen\GraphViz\Types\DoubleType;
 
 /**
  * Indicates the preferred area for a node or empty cluster when laid out by patchwork.

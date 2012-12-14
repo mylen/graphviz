@@ -1,7 +1,7 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Spring\Neato;
+namespace Mylen\GraphViz\Spring\Neato;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Cluster as BaseCluster;
+use Mylen\GraphViz\Cluster as BaseCluster;
 
 class Cluster extends BaseCluster
 {

@@ -1,17 +1,17 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Circular\Circo;
+namespace Mylen\GraphViz\Circular\Circo;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Root;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Mindist;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Voro_margin;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Sep;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Packmode;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Pack;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Overlap;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Normalize;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Esep;
+use Mylen\GraphViz\Attributes\Root;
+use Mylen\GraphViz\Attributes\Mindist;
+use Mylen\GraphViz\Attributes\Voro_margin;
+use Mylen\GraphViz\Attributes\Sep;
+use Mylen\GraphViz\Attributes\Packmode;
+use Mylen\GraphViz\Attributes\Pack;
+use Mylen\GraphViz\Attributes\Overlap;
+use Mylen\GraphViz\Attributes\Normalize;
+use Mylen\GraphViz\Attributes\Esep;
 
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Graph as BaseGraph;
+use Mylen\GraphViz\Graph as BaseGraph;
 
 class Graph extends BaseGraph
 {

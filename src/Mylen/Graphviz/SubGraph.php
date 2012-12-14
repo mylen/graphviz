@@ -1,33 +1,33 @@
 <?php
-namespace Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz;
+namespace Mylen\GraphViz;
 
 use Alom\Graphviz\Subgraph;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\URL;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\EdgeURL;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Edgehref;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Edgetarget;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Edgetooltip;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\HeadURL;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Headhref;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Headlabel;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Headtarget;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Headtooltip;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Href;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Id;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Label;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\LabelURL;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Labelhref;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Labeltarget;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Labeltooltip;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Rank;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\TailURL;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Tailhref;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Taillabel;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Tailtarget;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Tailtooltip;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Target;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Tooltip;
-use Atos\Worldline\Fm\Integration\Ucs\EventFlowAnalyser\GraphViz\Attributes\Xlabel;
+use Mylen\GraphViz\Attributes\URL;
+use Mylen\GraphViz\Attributes\EdgeURL;
+use Mylen\GraphViz\Attributes\Edgehref;
+use Mylen\GraphViz\Attributes\Edgetarget;
+use Mylen\GraphViz\Attributes\Edgetooltip;
+use Mylen\GraphViz\Attributes\HeadURL;
+use Mylen\GraphViz\Attributes\Headhref;
+use Mylen\GraphViz\Attributes\Headlabel;
+use Mylen\GraphViz\Attributes\Headtarget;
+use Mylen\GraphViz\Attributes\Headtooltip;
+use Mylen\GraphViz\Attributes\Href;
+use Mylen\GraphViz\Attributes\Id;
+use Mylen\GraphViz\Attributes\Label;
+use Mylen\GraphViz\Attributes\LabelURL;
+use Mylen\GraphViz\Attributes\Labelhref;
+use Mylen\GraphViz\Attributes\Labeltarget;
+use Mylen\GraphViz\Attributes\Labeltooltip;
+use Mylen\GraphViz\Attributes\Rank;
+use Mylen\GraphViz\Attributes\TailURL;
+use Mylen\GraphViz\Attributes\Tailhref;
+use Mylen\GraphViz\Attributes\Taillabel;
+use Mylen\GraphViz\Attributes\Tailtarget;
+use Mylen\GraphViz\Attributes\Tailtooltip;
+use Mylen\GraphViz\Attributes\Target;
+use Mylen\GraphViz\Attributes\Tooltip;
+use Mylen\GraphViz\Attributes\Xlabel;
 
 class SubGraph extends Subgraph
 {
