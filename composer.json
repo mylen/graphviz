@@ -2,7 +2,7 @@
   "name": "alom/graphviz",
   "description": "Graphviz generation for PHP",
   "keywords": ["dot", "graphviz"],
-  "homepage": "http://github.com/alexandresalome/graphviz",
+  "homepage": "http://github.com/mylen/graphviz",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -10,6 +10,9 @@
       "name": "Alexandre Salomé",
       "email": "alexandre.salome@gmail.com",
       "homepage": "http://alexandre-salome.fr"
+      "name": "Alexandre Mélard",
+      "email": "alexandre@melard.fr",
+      "homepage": "http://blog.melard.fr"
     }
   ],
   "require": {
@@ -21,6 +24,7 @@
   "autoload": {
     "psr-0": {
       "Alom": "src/"
+      "Mylen": "src/"
     }
   }
 }
