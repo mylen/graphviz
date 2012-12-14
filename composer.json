@@ -1,5 +1,5 @@
 {
-  "name": "alom/graphviz",
+  "name": "mylen/graphviz",
   "description": "Graphviz generation for PHP",
   "keywords": ["dot", "graphviz"],
   "homepage": "http://github.com/mylen/graphviz",
