@@ -88,7 +88,7 @@ abstract class Edge extends BaseInstruction
     {
         $edges = array();
         foreach ($this->list as $edge) {
-            $edges[] = $this->escape($edge);
+            $edges[] = $edge;
         }
 
         $edge = implode($this->getOperator(), $edges);

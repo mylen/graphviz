@@ -91,6 +91,6 @@ class Node extends BaseInstruction
     {
         $attributes = $this->attributes->render($indent + 1, $spaces);
 
-        return str_repeat($spaces, $indent) . $this->escape($this->id) . ($attributes ? ' ' . $attributes : '') . ";\n";
+        return str_repeat($spaces, $indent) . $this->id . ($attributes ? ' ' . $attributes : '') . ";\n";
     }
 }

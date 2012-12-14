@@ -28,30 +28,6 @@ abstract class BaseInstruction implements InstructionInterface
      */
     protected function renderInlineAssignment($name, $value)
     {
-        return $this->escape($name) . '=' . $this->escape($value);
-    }
-
-    /**
-     * Escapes a value if needed.
-     *
-     * @param string $value The value to set
-     *
-     * @return string The escaped string
-     */
-    protected function escape($value)
-    {
-        return ($this->needsEscaping($value)) ? '"' . str_replace('"', '""', $value) . '"' : $value;
-    }
-
-    /**
-     * Tests if a string needs escaping.
-     *
-     * @param string $value
-     *
-     * @return boolean Result of test
-     */
-    protected function needsEscaping($value)
-    {
-        return preg_match('/[ "#:\\/\\.,]/', $value) || in_array($value, array('graph', 'node', 'edge')) || empty($value);
+        return $name . '=' . $value;
     }
 }
