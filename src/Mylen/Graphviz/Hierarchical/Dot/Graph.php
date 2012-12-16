@@ -16,6 +16,11 @@ use Mylen\GraphViz\Attributes\Aspect;
 
 use Mylen\GraphViz\Graph as BaseGraph;
 
+/**
+ * http://www.graphviz.org/pdf/dotguide.pdf 
+ * @author alexandre@melard.fr
+ *
+ */
 class Graph extends BaseGraph
 {
     protected $command = "dot  -Kdot -Tsvg";

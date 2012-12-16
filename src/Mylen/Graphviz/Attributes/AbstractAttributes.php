@@ -1,6 +1,8 @@
 <?php
 namespace Mylen\GraphViz\Attributes;
 
+use Mylen\GraphViz\Types\StringType;
+
 use Mylen\GraphViz\Types\AttributeType;
 
 /**
@@ -16,9 +18,14 @@ abstract class AbstractAttributes implements Attributes
     protected $name = null;
     protected $value = null;
 
-    public function __construct(AttributeType $value)
+    public function __construct($value)
     {
-        $this->value = $value;
+        if ($value instanceof AttributeType) {
+            $this->value = $value;
+        }
+        else {
+            $this->value = new StringType($value);            
+        }
     }
     
     public static function create($value)

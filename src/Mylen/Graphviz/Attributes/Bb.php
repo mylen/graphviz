@@ -7,11 +7,5 @@ namespace Mylen\GraphViz\Attributes;
  */
 class Bb extends AbstractAttributes
 {
-    
     protected $name = "bb";
-    
-    public function __construct(Rect $value)
-    {
-        parent::__construct($value);
-    }
 }

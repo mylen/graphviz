@@ -1,7 +1,9 @@
 <?php
 namespace Mylen\GraphViz;
 
-use Alom\Graphviz\Subgraph;
+use Mylen\GraphViz\Attributes\Color;
+
+use Alom\Graphviz\Subgraph as BaseSubGraph;
 use Mylen\GraphViz\Attributes\URL;
 use Mylen\GraphViz\Attributes\EdgeURL;
 use Mylen\GraphViz\Attributes\Edgehref;
@@ -20,6 +22,7 @@ use Mylen\GraphViz\Attributes\Labelhref;
 use Mylen\GraphViz\Attributes\Labeltarget;
 use Mylen\GraphViz\Attributes\Labeltooltip;
 use Mylen\GraphViz\Attributes\Rank;
+use Mylen\GraphViz\Attributes\Style;
 use Mylen\GraphViz\Attributes\TailURL;
 use Mylen\GraphViz\Attributes\Tailhref;
 use Mylen\GraphViz\Attributes\Taillabel;
@@ -29,22 +32,92 @@ use Mylen\GraphViz\Attributes\Target;
 use Mylen\GraphViz\Attributes\Tooltip;
 use Mylen\GraphViz\Attributes\Xlabel;
 
-class SubGraph extends Subgraph
+class SubGraph extends BaseSubGraph
 {
     
     /**
-     * @param Headlabel headlabel
-     * @return SubGraph
+     * @param Bgcolor bgcolor
+     * @return Cluster
      */
-    public function setHeadlabel(Headlabel $headlabel)
+    public function setBgcolor(Bgcolor $bgcolor)
     {
-        $this->set($headlabel->getName(), $headlabel->getValue());
+        $this->set($bgcolor->getName(), $bgcolor->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Color color
+     * @return Cluster
+     */
+    public function setColor(Color $color)
+    {
+        $this->set($color->getName(), $color->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Colorscheme colorscheme
+     * @return Cluster
+     */
+    public function setColorscheme(Colorscheme $colorscheme)
+    {
+        $this->set($colorscheme->getName(), $colorscheme->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Fillcolor fillcolor
+     * @return Cluster
+     */
+    public function setFillcolor(Fillcolor $fillcolor)
+    {
+        $this->set($fillcolor->getName(), $fillcolor->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Fontcolor fontcolor
+     * @return Cluster
+     */
+    public function setFontcolor(Fontcolor $fontcolor)
+    {
+        $this->set($fontcolor->getName(), $fontcolor->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Fontname fontname
+     * @return Cluster
+     */
+    public function setFontname(Fontname $fontname)
+    {
+        $this->set($fontname->getName(), $fontname->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Fontsize fontsize
+     * @return Cluster
+     */
+    public function setFontsize(Fontsize $fontsize)
+    {
+        $this->set($fontsize->getName(), $fontsize->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Gradientangle gradientangle
+     * @return Cluster
+     */
+    public function setGradientangle(Gradientangle $gradientangle)
+    {
+        $this->set($gradientangle->getName(), $gradientangle->getValue());
         return $this;
     }
     
     /**
      * @param Label label
-     * @return SubGraph
+     * @return Cluster
      */
     public function setLabel(Label $label)
     {
@@ -53,112 +126,122 @@ class SubGraph extends Subgraph
     }
     
     /**
-     * @param Taillabel taillabel
-     * @return SubGraph
+     * @param Labeljust labeljust
+     * @return Cluster
      */
-    public function setTaillabel(Taillabel $taillabel)
+    public function setLabeljust(Labeljust $labeljust)
     {
-        $this->set($taillabel->getName(), $taillabel->getValue());
+        $this->set($labeljust->getName(), $labeljust->getValue());
         return $this;
     }
     
     /**
-     * @param Xlabel xlabel
-     * @return SubGraph
+     * @param Labelloc labelloc
+     * @return Cluster
      */
-    public function setXlabel(Xlabel $xlabel)
+    public function setLabelloc(Labelloc $labelloc)
     {
-        $this->set($xlabel->getName(), $xlabel->getValue());
+        $this->set($labelloc->getName(), $labelloc->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Layer layer
+     * @return Cluster
+     */
+    public function setLayer(Layer $layer)
+    {
+        $this->set($layer->getName(), $layer->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Margin margin
+     * @return Cluster
+     */
+    public function setMargin(Margin $margin)
+    {
+        $this->set($margin->getName(), $margin->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Nojustify nojustify
+     * @return Cluster
+     */
+    public function setNojustify(Nojustify $nojustify)
+    {
+        $this->set($nojustify->getName(), $nojustify->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Pencolor pencolor
+     * @return Cluster
+     */
+    public function setPencolor(Pencolor $pencolor)
+    {
+        $this->set($pencolor->getName(), $pencolor->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Penwidth penwidth
+     * @return Cluster
+     */
+    public function setPenwidth(Penwidth $penwidth)
+    {
+        $this->set($penwidth->getName(), $penwidth->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Peripheries peripheries
+     * @return Cluster
+     */
+    public function setPeripheries(Peripheries $peripheries)
+    {
+        $this->set($peripheries->getName(), $peripheries->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Sortv sortv
+     * @return Cluster
+     */
+    public function setSortv(Sortv $sortv)
+    {
+        $this->set($sortv->getName(), $sortv->getValue());
+        return $this;
+    }
+    
+    /**
+     * @param Style style
+     * @return Cluster
+     */
+    public function setStyle(Style $style)
+    {
+        $this->set($style->getName(), $style->getValue());
         return $this;
     }
     
     /******************************************************************
      *                        SPECIFIC OUPUT
     *****************************************************************/
-        
-    /**
-     * @param Edgehref edgehref
-     * @return SubGraph
-     */
-    public function setEdgehref(Edgehref $edgehref)
-    {
-        $this->set($edgehref->getName(), $edgehref->getValue());
-        return $this;
-    }
     
     /**
-     * @param Edgetarget edgetarget
-     * @return SubGraph
+     * @param Area area
+     * @return Cluster
      */
-    public function setEdgetarget(Edgetarget $edgetarget)
+    public function setArea(Area $area)
     {
-        $this->set($edgetarget->getName(), $edgetarget->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param Edgetooltip edgetooltip
-     * @return SubGraph
-     */
-    public function setEdgetooltip(Edgetooltip $edgetooltip)
-    {
-        $this->set($edgetooltip->getName(), $edgetooltip->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param EdgeURL edgeURL
-     * @return SubGraph
-     */
-    public function setEdgeURL(EdgeURL $edgeURL)
-    {
-        $this->set($edgeURL->getName(), $edgeURL->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param Headhref headhref
-     * @return SubGraph
-     */
-    public function setHeadhref(Headhref $headhref)
-    {
-        $this->set($headhref->getName(), $headhref->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param Headtarget headtarget
-     * @return SubGraph
-     */
-    public function setHeadtarget(Headtarget $headtarget)
-    {
-        $this->set($headtarget->getName(), $headtarget->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param Headtooltip headtooltip
-     * @return SubGraph
-     */
-    public function setHeadtooltip(Headtooltip $headtooltip)
-    {
-        $this->set($headtooltip->getName(), $headtooltip->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param HeadURL headURL
-     * @return SubGraph
-     */
-    public function setHeadURL(HeadURL $headURL)
-    {
-        $this->set($headURL->getName(), $headURL->getValue());
+        $this->set($area->getName(), $area->getValue());
         return $this;
     }
     
     /**
      * @param Href href
-     * @return SubGraph
+     * @return Cluster
      */
     public function setHref(Href $href)
     {
@@ -167,98 +250,38 @@ class SubGraph extends Subgraph
     }
     
     /**
-     * @param Id id
-     * @return SubGraph
+     * @param Lheight lheight
+     * @return Cluster
      */
-    public function setId(Id $id)
+    public function setLheight(Lheight $lheight)
     {
-        $this->set($id->getName(), $id->getValue());
+        $this->set($lheight->getName(), $lheight->getValue());
         return $this;
     }
     
     /**
-     * @param Labelhref labelhref
-     * @return SubGraph
+     * @param Lp lp
+     * @return Cluster
      */
-    public function setLabelhref(Labelhref $labelhref)
+    public function setLp(Lp $lp)
     {
-        $this->set($labelhref->getName(), $labelhref->getValue());
+        $this->set($lp->getName(), $lp->getValue());
         return $this;
     }
     
     /**
-     * @param Labeltarget labeltarget
-     * @return SubGraph
+     * @param Lwidth lwidth
+     * @return Cluster
      */
-    public function setLabeltarget(Labeltarget $labeltarget)
+    public function setLwidth(Lwidth $lwidth)
     {
-        $this->set($labeltarget->getName(), $labeltarget->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param Labeltooltip labeltooltip
-     * @return SubGraph
-     */
-    public function setLabeltooltip(Labeltooltip $labeltooltip)
-    {
-        $this->set($labeltooltip->getName(), $labeltooltip->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param LabelURL labelURL
-     * @return SubGraph
-     */
-    public function setLabelURL(LabelURL $labelURL)
-    {
-        $this->set($labelURL->getName(), $labelURL->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param Tailhref tailhref
-     * @return SubGraph
-     */
-    public function setTailhref(Tailhref $tailhref)
-    {
-        $this->set($tailhref->getName(), $tailhref->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param Tailtarget tailtarget
-     * @return SubGraph
-     */
-    public function setTailtarget(Tailtarget $tailtarget)
-    {
-        $this->set($tailtarget->getName(), $tailtarget->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param Tailtooltip tailtooltip
-     * @return SubGraph
-     */
-    public function setTailtooltip(Tailtooltip $tailtooltip)
-    {
-        $this->set($tailtooltip->getName(), $tailtooltip->getValue());
-        return $this;
-    }
-    
-    /**
-     * @param TailURL tailURL
-     * @return SubGraph
-     */
-    public function setTailURL(TailURL $tailURL)
-    {
-        $this->set($tailURL->getName(), $tailURL->getValue());
+        $this->set($lwidth->getName(), $lwidth->getValue());
         return $this;
     }
     
     /**
      * @param Target target
-     * @return SubGraph
+     * @return Cluster
      */
     public function setTarget(Target $target)
     {
@@ -268,7 +291,7 @@ class SubGraph extends Subgraph
     
     /**
      * @param Tooltip tooltip
-     * @return SubGraph
+     * @return Cluster
      */
     public function setTooltip(Tooltip $tooltip)
     {
@@ -278,7 +301,7 @@ class SubGraph extends Subgraph
     
     /**
      * @param URL URL
-     * @return SubGraph
+     * @return Cluster
      */
     public function setURL(URL $URL)
     {

@@ -1,7 +1,4 @@
 <?php 
-namespace Mylen\GraphViz\Attributes;
-
-
 /**
  * When attached to the root graph, this color is used as the background for
  *   entire canvas. When a cluster attribute, it is used as the initial
@@ -25,7 +22,13 @@ namespace Mylen\GraphViz\Attributes;
  *   set, overwriting whatever color or graphics where already on the page.
  *   If this effect is not desired, and you only want to set bits explicitly
  *   assigned in drawing the graph, set <B>bgcolor</b>="transparent".
+ *   
+ *   @author alexandre@melard.fr
+ *   @package Mylen\GraphViz\Attributes\Bgcolor
  */
+
+namespace Mylen\GraphViz\Attributes;
+
 class Bgcolor extends AbstractAttributes
 {
     

@@ -7,6 +7,11 @@ use Mylen\GraphViz\Attributes\Group;
 
 use Mylen\GraphViz\Node as BaseNode;
 
+/**
+ * http://www.graphviz.org/pdf/dotguide.pdf 
+ * @author alexandre@melard.fr
+ *
+ */
 class Node extends BaseNode
 {
 

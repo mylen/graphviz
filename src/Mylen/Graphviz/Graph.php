@@ -117,17 +117,32 @@ class Graph extends Digraph
     public function render($indent = 0, $spaces = ' ')
     {
         $str = parent::render($indent, $spaces);
+//         if (null == $filename) {
+//             $stream = tmpfile();
+//             $meta = stream_get_meta_data($stream);
+//             $filename = $meta["uri"];
+//         } else {
+//             $stream = fopen($filename, 'w');
+//         }
         $stream = tmpfile();
         $meta = stream_get_meta_data($stream);
         $filename = $meta["uri"];
         fwrite($stream, $str);
-        var_dump($str);
-        exec($this->command ." " . $filename, $res, $status);
+//         echo '<pre>';
+//         var_dump($str);
+//         echo '</pre>';
+        
+        exec($this->command . " " . $filename, $res, $status);
+        if ($status !== 0) {
+            echo'<p class="alert">' . var_dump($res) . '</p>';
+        }
         $res = implode("\n", $res);
         return $res;
     }
 
-    /**
+   /**
+    * @api
+    * @see Mylen\GraphViz\Attributes\Bgcolor
     * @param Bgcolor bgcolor
     * @return Graph
     */

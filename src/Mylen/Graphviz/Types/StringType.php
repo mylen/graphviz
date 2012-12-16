@@ -6,8 +6,8 @@ namespace Mylen\GraphViz\Types;
 */
 class StringType extends AbstractAttributeType
 {
-    public function setValue($value)
+    public function __construct($value)
     {
-        parent::setValue("\"$value\"");
+        parent::__construct("\"$value\"");
     }
 }

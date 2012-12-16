@@ -35,7 +35,7 @@ class Node extends BaseInstruction
     public function __construct($id, array $attributes = array(), $parent = null)
     {
         $this->parent = $parent;
-        $this->id = $id;
+        $this->id = "\"$id\"";
         $this->attributes = new AttributeBag($attributes);
     }
 

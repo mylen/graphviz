@@ -1,7 +1,7 @@
 <?php
 namespace Mylen\GraphViz\Spring\Neato;
 
-use Mylen\GraphViz\SubGraph as BaseSubgraph;
+use Mylen\GraphViz\Subgraph as BaseSubgraph;
 
 class SubGraph extends BaseSubgraph
 {

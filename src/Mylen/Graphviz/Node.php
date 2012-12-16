@@ -58,6 +58,19 @@ class Node extends BaseNode
     {
         return new Node($id);
     }
+
+    /**
+     * Set attributes to make node invisible
+     * @return Node
+     */
+    public function invisible()
+    {
+        return $this
+        ->setStyle(new Style('invisible'))
+        ->setWidth(new Width('.1'))
+        ->setHeight(new Height('.1'))
+        ->setFixedsize(new Fixedsize('true'));
+    }
     
     /**
      * @param Color color

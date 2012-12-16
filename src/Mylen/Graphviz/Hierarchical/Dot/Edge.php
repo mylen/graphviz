@@ -11,6 +11,11 @@ use Mylen\GraphViz\Attributes\Constraint;
 
 use Mylen\GraphViz\Edge as BaseEdge;
 
+/**
+ * http://www.graphviz.org/pdf/dotguide.pdf 
+ * @author alexandre@melard.fr
+ *
+ */
 class Edge extends BaseEdge
 {
 
